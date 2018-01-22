@@ -1,0 +1,9 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.9)
+PROJECT(qt-table)
+
+SET(CMAKE_INCLUDE_CURRENT_DIR ON)
+SET(CMAKE_AUTOMOC ON)
+
+FIND_PACKAGE(Qt5Widgets)
+ADD_EXECUTABLE(qt-table main.cpp MainWindow.h MainWindow.cpp TableModel.h TableModel.cpp)
+TARGET_LINK_LIBRARIES(qt-table Qt5::Widgets)
