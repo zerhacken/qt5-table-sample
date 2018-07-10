@@ -1,6 +1,7 @@
 ## Synopsis
 
 A cmake based Qt5 sample using QTreeView as a table.
+Requires [Qt 5.x](https://www.qt.io/download) and [CMake 3.x](https://cmake.org/download/)
 
 ```
 $ mkdir build
